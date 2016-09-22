@@ -157,3 +157,9 @@ map Y y$
 nnoremap <C-L> :nohl<CR><C-L>
  
 "------------------------------------------------------------
+" Ryan-specific bindings
+" Move between buffers with Shift-j and shift-k
+map J :bn<CR>
+map K :bp<CR>
+
+"------------------------------------------------------------
